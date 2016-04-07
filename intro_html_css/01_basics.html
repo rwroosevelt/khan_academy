@@ -1,0 +1,115 @@
+<!-- A quick summary of what I have learned from khan academy's html basics using html and css>
+<!-- Comments are allowed between the end and start of tags. inserting comments within a tag may prevent the that portion of the web page from rendering. -->
+<html>
+	<!-- title, name of the webpage -->
+    <head>
+        <meta charset="utf-8">
+		<title> Khan Academy summary </title>
+    </head>
+	<!--style allows the developer to determine the coloring and styling of the web page -->
+		<!--body determines the background settings of the web page -->
+		<!-- h1 determines the style of h1-->
+		<!-- p determines the styling of the paragraph text -->
+		<!-- the # sign indicates what id to apply the styling to. # can be used as internal links within the same web page-->
+		<!-- the . period applies the styling to a specified class-->
+	<style>
+		body {
+			background: green;
+		}
+		p {
+			color: black;
+		}
+		h1 {
+			color: rgb(255, 255, 255);
+		}
+		#header2-a {
+			background-color: rgb(0, 255, 255);  
+			color: rgb(0, 0, 0);
+		}
+		#header2-b {
+			background-color: rgb(255, 255, 255); 
+			color: rgb(0, 0, 0);
+		}
+		.rich {
+			color: yellow;
+		}
+		.poor {
+			color: brown;
+		}
+	</style>
+    <body>
+		<h1 id="top"> 
+			<strong><em> What I like to learn about the web: </em></strong>
+		</h1>
+		<ol>
+			<li><a href ="https://en.wikipedia.org/wiki/JavaScript"> JavaScript </a></li>
+			<li><a href ="https://en.wikipedia.org/wiki/HTML">html</a></li>
+			<li><a href ="https://en.wikipedia.org/wiki/JQuery">jquery</a></li>
+		</ol>
+		<h1 id="trip"> 
+			The perfect trip 
+		</h1>
+		<p>
+			I would see scenes like...
+		</p>
+			<img src = "https://www.kasandbox.org/programming-images/landscapes/beach-waves-at-sunset.png" alt="Beach at sunset" width="300"height="300">
+		<p>
+			And animals like...
+		</p>
+			<img src ="https://www.kasandbox.org/programming-images/animals/cat.png"alt="cats"width="300"height="300">
+		<p>
+			And eat food like...
+		</p>
+			<img src ="https://www.kasandbox.org/programming-images/food/chocolates.png" alt="chocolates" width="300"height="300">
+		
+		<h2 id="header2-a">
+			This h2 line has an id of header2-a.
+		</h2>
+		<h2 id="header2-b">
+			This h2 line has an id of header2-b
+		</h2>
+		<h2 id="table">
+			This is a table example<br>
+			It holds a first name, last name, and job title
+		</h2>
+			<table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Job Title</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>delivery manager</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>Doe</td>
+                    <td>account manager</td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>Doe</td>
+                    <td>Owner</td>
+                </tr>
+            </tbody>
+        </table>
+		<h2 id="class">
+			class example
+		</h2>
+		<strong class="rich">rich in gold</strong><br>
+		<em class="poor">poor as in dirt</em><br>
+		<h3> h3, appendix</h3>
+			<p> 
+				You can inspect the elements of this page with your browser to see the comments and what was used to build this web page! <br>
+				<a href="#top"> back to top </a><br>
+				<a href="#trip"> back to trip</a><br>
+				<a href="#table"> back to table </a><br>
+			</p>
+		
+    </body>
+</html>
